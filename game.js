@@ -56,7 +56,6 @@ function checkAnswer(order) {
         }
     }
     else{
-        console.log(clickedButtons[order] + " does not match with " + gamePattern[order]);
         playSound("wrong");
         $("body").addClass("game-over")
         setTimeout(function() {
