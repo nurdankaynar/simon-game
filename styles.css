@@ -44,7 +44,7 @@ body {
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.98);
 }
 
 .pressed {
